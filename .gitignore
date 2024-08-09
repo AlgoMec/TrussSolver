@@ -2,6 +2,7 @@
 build
 dist
 bin
+out
 
 # Prerequisites
 *.d
