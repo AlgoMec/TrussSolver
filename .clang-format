@@ -3,3 +3,8 @@ Language: Cpp
 BasedOnStyle: Microsoft
 PointerAlignment: Left
 NamespaceIndentation: All
+AccessModifierOffset: -4
+
+PackConstructorInitializers: NextLineOnly
+AllowShortFunctionsOnASingleLine: InlineOnly
+AlwaysBreakTemplateDeclarations: true
