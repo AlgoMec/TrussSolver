@@ -52,9 +52,10 @@ _deps
 CMakeUserPresets.json
 
 # Editors
-.vs
-.vscode
-.autosave
+*.vs
+*.vscode
+*.autosave
+*.cache
 *.qmlproject.user
 *.qmlproject.user.*
 *creator.user*
