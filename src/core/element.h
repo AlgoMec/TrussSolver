@@ -1,6 +1,5 @@
 #pragma once
 
-#include <map>
 #include <string>
 #include <tuple>
 
@@ -22,18 +21,6 @@ namespace ts::core
         int m_id;
         std::tuple<int, int> m_nodeIdPair;
         std::string m_label;
-    };
-
-    class Elements
-    {
-    public:
-        Elements();
-        void add(Element element);
-        Element& get(int elementId);
-        void remove(int elementId);
-
-    private:
-        std::map<int, Element> m_elements;
     };
 
 } // namespace ts::core
